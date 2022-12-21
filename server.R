@@ -4,6 +4,7 @@ library(dplyr)
 library(tidyverse)
 library(reshape2)
 library(ggplot2)
+library(rsconnect)
 
 server <- function(input, output){
   
@@ -113,7 +114,6 @@ server <- function(input, output){
   })
   
 }
-
 
 
 
